@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "ar.edu.ejempoci"
+    },
+    "jhipsterVersion": "6.10.1",
+    "applicationType": "monolith",
+    "baseName": "ejemploIC",
+    "packageName": "ar.edu.ejempoci",
+    "packageFolder": "ar/edu/ejempoci",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OWNkYTRmNzMzYzA0YjE2N2Y5N2UxNjE4OWIxZDA2YTg1MTlkNTlhODdkYjQxZDc3ZmRlNWZkNDAzZTk0NzVkMGRkNDY5MTNhNmRjNDc3NGY0NTFjNjgxMmRmNWQ5OWQ0OTJhNWZhM2UyYTMxYzFhOWE0OTliZjAzZWRjYjlhYTA=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1600977939882,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}
