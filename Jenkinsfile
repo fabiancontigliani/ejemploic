@@ -45,10 +45,10 @@ node {
         }
     }
 
-    stage('packaging') {
-        sh "./mvnw -ntp verify -P-webpack -Pprod -DskipTests"
-        archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true
-    }
+    //stage('packaging') {
+    //    sh "./mvnw -ntp verify -P-webpack -Pprod -DskipTests"
+    //    archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true
+    //}
 
     def dockerImage
     stage('publish docker') {
